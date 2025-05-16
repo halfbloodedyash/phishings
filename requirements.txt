@@ -1,5 +1,5 @@
 streamlit
 requests
 sentence-transformers
-pinecone-client
+pinecone>=3.0.0
 python-dotenv
