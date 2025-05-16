@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "HTTPS Usage",
+    "content": "Legitimate websites usually use HTTPS. A missing HTTPS (HTTP only) is a red flag for phishing. Phishing sites often skip HTTPS to avoid certificate registration."
+  },
+  {
+    "id": 2,
+    "title": "URL Length",
+    "content": "URLs longer than 100 characters are often phishing attempts. Attackers use long URLs to obscure the real domain or include deceptive parameters."
+  },
+  {
+    "id": 3,
+    "title": "Number of Subdomains",
+    "content": "Phishing URLs frequently use many subdomains to mimic legit services (e.g., login.paypal.com.fake-domain.com). More than 3 subdomains is suspicious."
+  },
+  {
+    "id": 4,
+    "title": "Use of IP Address",
+    "content": "Phishing URLs sometimes use raw IP addresses instead of domain names to hide their origin. URLs like http://192.168.1.1/login are a common red flag."
+  },
+  {
+    "id": 5,
+    "title": "Favicon Check",
+    "content": "Legitimate sites usually provide a favicon. If a page is missing a favicon, it might be hastily built or cloned by an attacker."
+  },
+  {
+    "id": 6,
+    "title": "URL Contains @ Symbol",
+    "content": "URLs containing '@' can trick browsers by treating the string after '@' as the real destination. This is a classic phishing trick."
+  },
+  {
+    "id": 7,
+    "title": "Redirection in URL",
+    "content": "Multiple redirections in a URL or presence of // after the domain (like http://site.com//evil.com) may be used to confuse users. This is suspicious."
+  },
+  {
+    "id": 8,
+    "title": "Mismatch in Domain and Title",
+    "content": "If the page title doesn\u2019t match the domain (e.g., domain is random.com but title says 'Facebook Login'), it\u2019s likely a phishing page."
+  },
+  {
+    "id": 9,
+    "title": "URL Has Suspicious Keywords",
+    "content": "Keywords like 'secure', 'login', 'update', 'free', or 'verify' in the path or domain are common in phishing URLs."
+  },
+  {
+    "id": 10,
+    "title": "No External Links",
+    "content": "Legit websites usually contain multiple external references (like social media, CDNs, ads). A complete lack of external links is suspicious."
+  },
+  {
+    "id": 11,
+    "title": "Responsive Design",
+    "content": "Most modern websites are responsive. A non-responsive page could be a quickly assembled phishing site not intended for mobile."
+  },
+  {
+    "id": 12,
+    "title": "Short URL Services",
+    "content": "Use of shortened URLs (bit.ly, tinyurl, etc.) is often seen in phishing campaigns to mask the true destination."
+  },
+  {
+    "id": 13,
+    "title": "Presence of Forms",
+    "content": "A form asking for sensitive info (passwords, card details) without HTTPS or validation is a major phishing signal."
+  },
+  {
+    "id": 14,
+    "title": "Low Domain Age",
+    "content": "Domains registered recently (within 6 months) are more likely to be phishing. Attackers frequently register throwaway domains."
+  },
+  {
+    "id": 15,
+    "title": "Known Phishing Patterns",
+    "content": "Common phishing patterns include URLs mimicking login pages, spoofing banking sites, and using urgency (e.g., 'Act Now!') in the text."
+  }
+]
